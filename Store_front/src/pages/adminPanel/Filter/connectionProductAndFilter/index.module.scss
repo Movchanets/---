@@ -1,0 +1,12 @@
+.checkbox_filter_label{
+    text-align: start !important;
+
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.checkbox_size{
+    min-width: 24px;
+}

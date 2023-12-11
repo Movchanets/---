@@ -1,0 +1,26 @@
+.footer {
+  font-family: fixel;
+  background-color: #022b3ad9;
+  margin-top: 64px;
+}
+
+.nav_component {
+  text-align: center;
+}
+
+.nav_component li {
+  margin: auto 0;
+}
+
+.nav_component a {
+  color: var(--background);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.copyright {
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: 400;
+}

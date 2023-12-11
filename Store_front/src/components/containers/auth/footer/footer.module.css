@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  color: var(--blue);
+  font-family: fixel;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer hr {
+  background: var(--sky-blue);
+  opacity: 1;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  margin: 20px;
+}

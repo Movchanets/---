@@ -1,0 +1,133 @@
+.card {
+  padding: 20px;
+  margin: 7px 0px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-out;
+  background-color: var(--background);
+
+  &:hover {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .image {
+    width: 185px;
+    height: 117px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+
+    .prodCartImage {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .favorite_icon {
+      color: aliceblue;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+/* Title */
+.title {
+  color: var(--light-blue);
+  font-family: fixel;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116.905%;
+  /* 21.043px */
+  cursor: pointer;
+}
+
+.wrapper_navigate_info_text {
+  margin-top: 12px;
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+
+  p {
+    margin: 0px;
+    padding: 0px;
+    font-family: fixel;
+    color: var(--light-blue);
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116.905%;
+    text-wrap: nowrap;
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+
+  span {
+    width: 8px;
+    height: 8px;
+    color: #000;
+    text-align: center;
+    font-family: fixel;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 116.905%;
+  }
+
+  .text_info {
+    font-family: fixel;
+    color: var(--blue);
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116.905%;
+    text-decoration: none;
+    cursor: default;
+    text-wrap: nowrap;
+  }
+
+  .icon_container {
+    margin: 12px auto 3px auto;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.short_description {
+  font-family: fixel;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: justify;
+  color: var(--blue);
+  margin-top: 12px;
+}
+
+.start_fill_icon {
+  color: var(--blue);
+}
+
+.start_empty_icon {
+  color: var(--light-gray);
+}
+
+.rewiews_details_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 102px;
+}

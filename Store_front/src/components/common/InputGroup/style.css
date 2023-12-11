@@ -1,0 +1,6 @@
+.is-invalid {
+    background-color: rgb(239, 218, 218);
+}
+.is-invalid-text-color {
+    color:red;
+}

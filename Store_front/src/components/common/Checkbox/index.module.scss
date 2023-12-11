@@ -1,0 +1,53 @@
+.checkbox_wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  label {
+    color: var(--blue, #022b3a);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+    cursor: pointer;
+    user-select: none;
+  }
+
+  input {
+    appearance: none;
+    height: 1.5rem;
+    width: 1.5rem;
+
+    border: 2px solid var(--light-blue);
+    border-radius: 4px;
+    margin: 0;
+
+    background: no-repeat center url("../../../assets/icons/checkbox.svg");
+    background-color: var(--background);
+    cursor: pointer;
+
+    transition: 0.25s ease-out;
+
+    &:hover {
+      background-color: var(--background_hover);
+    }
+
+    &:active {
+      filter: none;
+      background-color: var(--background_active);
+    }
+
+    &:checked {
+      background-color: var(--light-blue);
+      border-color: var(--light-blue);
+    }
+
+    &:focus {
+      outline: none;
+      border-color: unset;
+      box-shadow: none;
+      border-color: var(--light-blue);
+    }
+  }
+}

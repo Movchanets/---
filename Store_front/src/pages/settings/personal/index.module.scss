@@ -1,0 +1,149 @@
+.form {
+  margin: 5rem 0 5rem 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--blue);
+
+  &_title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 116.905%;
+    margin: 0 0 0.5rem 0;
+  }
+
+  &_subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 116.905%;
+    margin: 0;
+  }
+
+  .user_img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid rgba(2, 43, 58, 0.1);
+
+    cursor: pointer;
+    transition: 0.2s ease-out;
+
+    &:hover {
+      filter: brightness(0.75);
+    }
+  }
+}
+
+.body {
+  margin: 2rem 0 0;
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    margin: 1.5rem 0 0;
+
+    & > button {
+      flex: 0 1 50%;
+
+      padding: 10px;
+      border-radius: 5px;
+
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 116.905%;
+
+      transition: 0.25s ease-out;
+    }
+
+    .forgot_pass_btn {
+      color: var(--light-blue);
+      background: var(--background);
+      border: 2px solid var(--light-blue);
+
+      &:hover {
+        background: var(--background_hover);
+      }
+    }
+
+    .submit_btn {
+      color: var(--sky-blue);
+      background: var(--light-blue);
+      border: 2px solid var(--light-blue);
+
+      &:hover {
+        border: 2px solid var(--light-blue_hover);
+        background: var(--light-blue_hover);
+      }
+
+      &:disabled {
+        cursor: default;
+        background: rgba($color: #1f7a8c, $alpha: 0.75);
+        border: 2px solid rgba($color: #1f7a8c, $alpha: 0.75);
+      }
+    }
+  }
+}
+
+.field {
+  margin-top: 1.5rem;
+
+  label {
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 116.905%;
+  }
+
+  input {
+    border-radius: 5px;
+    border: 1px solid rgba(2, 43, 58, 0.1);
+    background: rgba(2, 43, 58, 0.1);
+
+    display: block;
+    padding: 10px 0 10px 14px;
+    width: 100%;
+
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-top: 8px;
+
+    &::placeholder {
+      color: rgba($color: #022b3a, $alpha: 0.7);
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    &:focus {
+      outline-color: rgba(2, 43, 58, 0.25);
+    }
+  }
+
+  .error,
+  .error:focus {
+    border-color: red;
+    outline-color: red;
+
+    &::placeholder {
+      color: rgba(255, 0, 0, 0.75);
+    }
+  }
+}
+
+.error_section {
+  display: block;
+
+  font-size: 14px;
+  font-weight: 400;
+  padding: 2px 0 0 2px;
+
+  color: rgba(255, 0, 0, 0.75);
+}

@@ -1,0 +1,23 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" fill="#202020"/>
+<g id="hotel page">
+<rect width="1920" height="7502" transform="translate(-655 -2171)" fill="#F0F0F0"/>
+<g id="Frame 131">
+<rect width="289" height="125" transform="translate(-138 -54)" fill="#022B3A" fill-opacity="0.05"/>
+<g id="Frame 343">
+<g id="Group 132">
+<g id="Frame 342">
+<g id="single_bed">
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
+<rect id="Bounding box" width="16" height="16" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+<path id="single_bed_2" d="M4.66675 12.6663H4.00008L3.56675 11.333H2.66675V7.98301C2.66675 7.61634 2.7973 7.30523 3.05841 7.04967C3.31953 6.79412 3.63341 6.66634 4.00008 6.66634V4.66634C4.00008 4.29967 4.13064 3.98579 4.39175 3.72467C4.65286 3.46356 4.96675 3.33301 5.33341 3.33301H10.6667C11.0334 3.33301 11.3473 3.46356 11.6084 3.72467C11.8695 3.98579 12.0001 4.29967 12.0001 4.66634V6.66634C12.3667 6.66634 12.6806 6.7969 12.9417 7.05801C13.2029 7.31912 13.3334 7.63301 13.3334 7.99967V11.333H12.4334L12.0001 12.6663H11.3334L10.9001 11.333H5.10008L4.66675 12.6663ZM8.66675 6.66634H10.6667V4.66634H8.66675V6.66634ZM5.33341 6.66634H7.33342V4.66634H5.33341V6.66634ZM4.00008 9.99967H12.0001V7.99967H4.00008V9.99967Z" fill="#1C1B1F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

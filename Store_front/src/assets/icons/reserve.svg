@@ -1,0 +1,35 @@
+<svg fill="#currentColor" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve">
+<g>
+	<g>
+		<rect x="220.221" y="438.903" width="219.482" height="17.443" fill="currentColor"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="72.293" y="438.903" width="50.295" height="17.443" fill="currentColor"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon points="72.293,391.06 72.293,408.504 122.587,408.504 126.748,408.504 216.061,408.504 220.221,408.504 439.707,408.504 
+			439.707,391.06 		" fill="currentColor"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M129.559,0v360.664h310.148V0H129.559z M362.405,152.508H206.861v-30.396h155.544V152.508z M362.405,95.241H206.861
+			V64.845h155.544V95.241z" fill="currentColor"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="72.293" width="26.87" height="360.663" fill="currentColor"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon points="185.665,438.9 157.144,438.9 152.984,438.9 152.984,512 171.404,504.839 189.825,512 189.825,438.9 		" fill="currentColor"/>
+	</g>
+</g>
+</svg>

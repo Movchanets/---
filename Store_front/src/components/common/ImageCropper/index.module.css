@@ -1,0 +1,23 @@
+.image {
+  height: 64px;
+  border-radius: 0.375rem;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+
+.image_saved {
+  filter: brightness(0.25);
+  cursor: not-allowed;
+}
+
+.image_div {
+  overflow: hidden;
+  position: relative;
+}
+
+.image_holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}

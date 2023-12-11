@@ -1,0 +1,44 @@
+.form {
+  margin-top: 64px;
+}
+
+.title {
+  color: var(--blue);
+  font-family: fixel;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: var(--blue);
+  font-family: fixel;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.subtitle strong {
+  font-weight: 600;
+}
+
+.continue {
+  border-radius: 5px;
+  background: var(--light-blue);
+
+  color: var(--light-gray);
+  text-align: center;
+  font-family: fixel;
+  font-size: 14px;
+  font-weight: 500;
+
+  border: none;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+
+  margin-top: 14px;
+  transition: 0.2s;
+}
+
+.continue:hover {
+  background: var(--light-blue_hover);
+}

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>BookingAPI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\DAL\DAL.csproj" />
+	  <ProjectReference Include="..\Services\Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Seed files\_AccommodationType_tbl_.json" />
+    <_ContentIncludedByDefault Remove="Seed files\_Address_tbl_.json" />
+    <_ContentIncludedByDefault Remove="Seed files\_City_tbl_.json" />
+    <_ContentIncludedByDefault Remove="Seed files\_Country_tbl_.json" />
+    <_ContentIncludedByDefault Remove="Seed files\_ProductImage_tbl_.json" />
+    <_ContentIncludedByDefault Remove="Seed files\_Product_tbl_.json" />
+    <_ContentIncludedByDefault Remove="Seed files\_Region_tbl_.json" />
+    <_ContentIncludedByDefault Remove="Seed files\_tblFilterNameGroups_.json" />
+    <_ContentIncludedByDefault Remove="Seed files\_tblFilterNames_.json" />
+    <_ContentIncludedByDefault Remove="Seed files\_tblFilters_.json" />
+    <_ContentIncludedByDefault Remove="Seed files\_tblFilterValues_.json" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,44 @@
+:root {
+  --blue: #022b3a !important;
+  --blue_hover: #044963 !important;
+
+  --light-blue: #1f7a8c !important;
+  --light-blue_hover: #135a68 !important;
+
+  --sky-blue: #bfdbf7 !important;
+  --sky-blue_hover: #aac1d8 !important;
+
+  --light-gray: #e1e5f2 !important;
+  --light-gray_hover: #bfc3cf !important;
+
+  --background: #f0f0f0 !important;
+  --background_hover: #dbdbdb !important;
+  --background_active: #c6c6c6 !important;
+
+  --gray: #cbd2d8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  font-family: fixel;
+}
+
+@font-face {
+  font-family: fixel;
+  src: url(assets/fonts/FixelVariable.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/InterVariable.ttf);
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: -7px 0 -17px 0;
+  padding: 7px 0 17px 0;
+}

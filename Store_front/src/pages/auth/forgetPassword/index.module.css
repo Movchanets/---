@@ -1,0 +1,102 @@
+.form {
+  margin-top: 64px;
+}
+
+.title {
+  color: var(--blue);
+  font-family: fixel;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: var(--blue);
+  font-family: fixel;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.field {
+  margin-top: 20px;
+}
+
+.field label {
+  color: var(--blue);
+  font-family: fixel;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.field input {
+  border-radius: 5px;
+  border: 1px solid rgba(31, 122, 140, 0.4);
+  background-color: inherit;
+
+  display: block;
+  padding: 10px 0 10px 14px;
+  width: 100%;
+
+  margin-top: 4px;
+}
+
+.field input::placeholder {
+  color: rgba(31, 122, 140, 0.6);
+  font-family: fixel;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.field input:focus {
+  outline-color: rgba(31, 122, 140, 0.8);
+}
+
+.field .error,
+.field .error:focus {
+  border-color: red;
+  outline-color: red;
+}
+
+.field .error::placeholder {
+  color: rgba(255, 0, 0, 0.6);
+}
+
+.error_section {
+  display: block;
+
+  font-size: 14px;
+  font-weight: 400;
+  padding: 2px 0 0 2px;
+
+  color: rgba(255, 0, 0, 0.75);
+}
+
+.continue {
+  border-radius: 5px;
+  background: var(--light-blue);
+
+  color: var(--light-gray);
+  text-align: center;
+  font-family: fixel;
+  font-size: 14px;
+  font-weight: 500;
+
+  border: none;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+
+  margin-top: 12px;
+  transition: 0.2s;
+}
+
+.continue:hover {
+  background: var(--light-blue_hover);
+}
+
+.continue:disabled {
+  cursor: default;
+}
+
+.continue:disabled:hover {
+  background: var(--light-blue);
+}

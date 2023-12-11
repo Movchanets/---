@@ -1,0 +1,30 @@
+.contain {
+   
+    display: flex;
+    border: none;
+    background: none;
+    cursor: pointer;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  
+    &:hover {
+      outline: 1px solid white;
+    }
+  
+  
+    .shoppingCart {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    z-index: 1;
+    
+    }
+  
+    .productsCount {
+      z-index: 1;
+      font-size: 2em;
+      top: 38px;
+      color: orange;
+    }
+  }

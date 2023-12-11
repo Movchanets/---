@@ -1,0 +1,27 @@
+.navbar {
+  padding-right: 96px;
+  padding-left: 96px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 12px 20px 0px;
+  height: 74px;
+}
+
+.icon {
+  color: var(--light-blue);
+}
+
+.icon_box {
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.4s;
+}
+
+.icon_box:hover {
+  color: var(--light-blue_hover);
+  background-color: var(--background_hover);
+}

@@ -1,0 +1,62 @@
+.title {
+  text-align: center;
+  color: var(--blue);
+
+  h4 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.no_orders {
+  text-align: center;
+  color: var(--light-blue);
+
+  margin: 4rem 0 0;
+
+  h5 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.orders {
+  & > * {
+    align-items: center;
+  }
+
+  margin-top: 1rem;
+}
+
+.show_more {
+  display: flex;
+  justify-content: center;
+  margin: 1.75rem 0 0;
+
+  &_btn {
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+    background: var(--light-blue);
+
+    color: var(--sky-blue);
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s ease-out;
+
+    &:hover {
+      background: var(--light-blue_hover);
+    }
+  }
+}

@@ -1,0 +1,152 @@
+.form {
+  margin-top: 64px;
+}
+
+#icon {
+  color: var(--light-blue);
+}
+
+.title {
+  color: var(--blue);
+  font-family: fixel;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: var(--blue);
+  font-family: fixel;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.field {
+  margin-top: 20px;
+}
+
+.field label {
+  color: var(--blue);
+  font-family: fixel;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.field input {
+  border-radius: 5px;
+  background-color: inherit;
+
+  display: block;
+  padding: 10px 0 10px 14px;
+  width: 100%;
+}
+
+.field input::placeholder {
+  color: rgba(31, 122, 140, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.field .error::placeholder {
+  color: rgba(255, 0, 0, 0.6);
+}
+
+.password_box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.password_box input {
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 5;
+}
+
+.password_box input::-ms-reveal {
+  display: none;
+}
+
+.password_box input:focus + .border_password {
+  outline: rgba(31, 122, 140, 0.8) auto 1px;
+  outline-offset: 0px;
+}
+
+.password_box .error + .border_password,
+.password_box .error:focus + .border_password {
+  border-color: red;
+  outline-color: red;
+}
+
+.password_box .border_password {
+  border-radius: 5px;
+  border: 1px solid rgba(31, 122, 140, 0.4);
+  position: absolute;
+  inset: 0;
+}
+
+.password_box #icon_box {
+  margin-inline-start: 4px;
+  margin-inline-end: 4px;
+
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.password_box #icon_box button {
+  background-color: inherit;
+  border: none;
+  padding: 6px;
+
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.password_box #icon_box button:hover {
+  border-radius: 5px;
+  background-color: var(--background_hover);
+}
+
+.error_section {
+  display: block;
+
+  font-size: 14px;
+  font-weight: 400;
+  padding: 2px 0 0 2px;
+
+  color: rgba(255, 0, 0, 0.75);
+}
+
+.continue {
+  border-radius: 5px;
+  background: var(--light-blue);
+
+  color: var(--light-gray);
+  text-align: center;
+  font-family: fixel;
+  font-size: 14px;
+  font-weight: 500;
+
+  border: none;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+
+  margin-top: 12px;
+  transition: 0.2s;
+}
+
+.continue:hover {
+  background: var(--light-blue_hover);
+}
+
+.continue:disabled {
+  cursor: default;
+}
+
+.continue:disabled:hover {
+  background: var(--light-blue);
+}

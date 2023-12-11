@@ -1,0 +1,79 @@
+.filter_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 209px;
+  margin-top: 16px;
+
+  .top_title {
+    position: relative;
+    top: 10px;
+  }
+
+  .title {
+    display: flex;
+    margin-top: 20px;
+    font-family: fixel;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--blue);
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    font-family: fixel;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--blue);
+  }
+
+  .filter_checkbox {
+    display: flex;
+    align-items: center;
+    min-width: 24px;
+    border-radius: 4px;
+    border: 2px solid var(--light-gray);
+    background-color: var(--background);
+  }
+
+  .label {
+    font-family: fixel;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.filter_colapse_btn {
+  border: none;
+  color: var(--light-blue);
+
+  & > span {
+    color: inherit;
+    font-family: Fixel;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .revers_icon {
+    transform: scale(-1, -1);
+  }
+}
