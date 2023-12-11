@@ -54,7 +54,7 @@ const  MakeOrder = () => {
 
   return (
     <section className={classes.cart}>
-      <h1>Order Card</h1>
+      <h1>Order Cart</h1>
     <div className={classes.container}>
         {getProducts().length === 0 ? 
             <>

@@ -63,7 +63,7 @@ const inCart = cart.details.find((x) => x.ProductId === product.id);
   return (
     <>
      
-      <div className="container-lg" style={{ maxWidth: "884px" }}>
+      <div className="container-lg mt-3" style={{ maxWidth: "884px" }}>
 
         <div className="row">
           <div className={`${styles.navigate}`}>
@@ -86,7 +86,7 @@ const inCart = cart.details.find((x) => x.ProductId === product.id);
             <div className="row">
               <div className={`${styles.buttons_wrapper}`}>
                 <div>
-                  <span className={`${styles.Price}`}>{product.quantity > 0 ? product.quantity + "left" : "Out of stock"} </span>
+                  <span className={`${styles.Price}`}>{product.quantity > 0 ? product.quantity + " left" : "Out of stock"} </span>
                   <span className={`${styles.Price}`}>{product.price} UAH</span>
                 </div>
                 {/* buttons favorite , share , Reserve */}
